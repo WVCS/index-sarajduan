@@ -1,5 +1,5 @@
 body {
-	background-color: #efe9de;
+	background-color: #593436;
 	font-family: "Short Stack", serif;
 	color: white;
 }
@@ -10,7 +10,7 @@ h4 {
     font-size: 22pt;
 }
 a {
-	color: #2D4B0D;
+	color: white;
 }
 
 img.bg {
@@ -19,19 +19,19 @@ img.bg {
     left: 0%;
     width: 100%;
 }
-div.text2 {
+div.text {
 	position: absolute;
 	width: 70%;
 	left: 15%;
-	top: 80%;
+	top: 65%;
 	color: white;
-	font-size: 70pt;
+	font-size: 80pt;
   text-align: center;
-  letter-spacing: 10px;
+  letter-spacing: 25px;
 }
 img.bg2 {
     position: absolute;
-    top: 809px;
+    top: 0px;
     left: 0%;
     width: 100%;
     z-index: -1;
@@ -65,21 +65,60 @@ li a {
     color: white;
 }
 li a:hover {
-    background-color: white;
-    color: skyblue;
+    background-color: tan;
+    color: brown;
 }
 
  
 @media (max-width: 1401px) {
-    div.text2 {
+    div.text {
         font-size: 20pt;
     }
 }
 
+div.text2 {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 25%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: -3%;
+	color: white;
+	font-size: 10pt;
+	text-align: left;
+    color: white;
+    background-color: transparent;
+}
+div.text2bg {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 25%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: -3%;
+	color: white;
+    background-color: #593436;
+	font-size: 10pt;
+	text-align: left;
+    color: transparent;
+    opacity: 50%;
+}
+iframe {
+    position: absolute;
+    top: 135%;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ol {
+    margin-top: 100%;
+}
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-top: 60%;
+  margin-top: 170%;
 }
 
 td, th {
@@ -89,5 +128,5 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: lightpink;
+  background-color: tan;
 }
